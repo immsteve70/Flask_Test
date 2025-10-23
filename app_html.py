@@ -14,6 +14,7 @@ def home():
             <p>This is an HTML response directly from Flask</p>
             <a href="/about">Go to About Page</a>
             <a href="/contact">Go to Contact Page</a>
+            <a href="/projects">Go to Projects Page</a>
         </body>
     </html>
     """
@@ -55,7 +56,20 @@ def projects():
     return """
     <html>
         <head>
-            <title>
+            <title>My Projects</title>
+        </head>
+        <body style="font-family: Arial; background-color: #FFE6D4; text-align: center;">
+            <h1>Here are some of my projects</h1>
+            <ul>
+                <li>To-Do App</li>
+                <li>Student Manager</li>
+                <li>Portfolio Website</li>
+            </ul>
+            <a href="/">Go Home</a>
+            <a href="/contact">Go to Contacts Page</a>
+            <a href="/about">Go to About Page</a>
+        </body>
+    </html>
     """
 
 if __name__ == '__main__':
